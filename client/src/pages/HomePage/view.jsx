@@ -4,8 +4,10 @@ import PageLayout from '@components/PageLayout';
 import PublishTool from '@containers/PublishTool';
 
 class HomePage extends React.Component {
-  componentWillUnmount () {
-    this.props.clearFile();
+  componentDidMount () {
+    if (this.props.isUpdate) {
+      this.props.clearFile();
+    }
   }
   render () {
     return (
