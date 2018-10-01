@@ -131,7 +131,7 @@ module.exports = {
           method: 'channel_new',
           params: {
             channel_name: name,
-            amount      : 0.1,
+            amount      : '0.1',
           },
         })
         .then(response => {
