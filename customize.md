@@ -7,7 +7,7 @@ The components used by spee.ch are taken from the `client/` folder, but you can 
  
 ### Add a new custom Logo component.
 
-To create your own custom component to override the defaults, create a folder and an `index.jsx` file for the component in the `client_custom/src/components/` folder.
+To create your own custom component to override the defaults, create a folder and then an `index.jsx` file for the component in the `client_custom/src/components/` folder.
 
 ```	
 $ cd client_custom/src/components/
@@ -31,7 +31,7 @@ function Logo () {
 export default Logo;
 ```
 
-Restart the server, and you should see your site with a new Logo in the top left corner!
+At last Restart the server, and you should see your site with a new Logo in the top left corner!
 ```
 $ npm run start
 ```
